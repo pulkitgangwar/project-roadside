@@ -1,0 +1,58 @@
+.page-1 {
+  &--background1 {
+    margin-top: 4rem;
+    background-image: linear-gradient(
+        to right,
+        rgba($color-black, 0.4),
+        rgba($color-black, 0.4)
+      ),
+      url("/Images/banner2.jpg");
+  }
+
+  &--background2 {
+    margin-top: 4rem;
+    background-image: linear-gradient(
+        to right,
+        rgba($color-black, 0.4),
+        rgba($color-black, 0.4)
+      ),
+      url("/Images/banner3.jpg");
+  }
+
+  &--background3 {
+    margin-top: 4rem;
+    background-image: linear-gradient(
+        to right,
+        rgba($color-black, 0.4),
+        rgba($color-black, 0.4)
+      ),
+      url("/Images/banner4.jpg");
+  }
+
+  &--background4 {
+    margin-top: 4rem;
+    background-image: linear-gradient(
+        to right,
+        rgba($color-black, 0.4),
+        rgba($color-black, 0.4)
+      ),
+      url("/Images/banner5.jpg");
+  }
+
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 1000px;
+  width: 100%;
+  position: relative;
+  z-index: 5;
+  overflow: hidden;
+
+  @media only screen and (max-width: $bp-small-1) {
+    min-height: 1500px;
+  }
+
+  @media only screen and (max-width: $bp-smallest) {
+    min-height: 2000px;
+  }
+}

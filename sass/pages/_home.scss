@@ -1,0 +1,59 @@
+.section-1 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba($color-black, 0.4),
+      rgba($color-black, 0.4)
+    ),
+    url("/Images/banner2.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.section-2 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba($color-black, 0.4),
+      rgba($color-black, 0.4)
+    ),
+    url("/Images/banner3.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.section-3 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba($color-black, 0.4),
+      rgba($color-black, 0.4)
+    ),
+    url("/Images/banner4.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.section-4 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba($color-black, 0.4),
+      rgba($color-black, 0.4)
+    ),
+    url("/Images/banner5.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  background-attachment: fixed;
+}

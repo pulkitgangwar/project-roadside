@@ -1,0 +1,69 @@
+.header {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  background-image: linear-gradient(
+      to right,
+      rgba($color-black, 0.4),
+      rgba($color-black, 0.4)
+    ),
+    url("/Images/banner.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+  &__logo-box {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+  }
+
+  &__logo {
+    text-decoration: none;
+    color: $color-white;
+    text-transform: capitalize;
+    position: fixed;
+    top: 3rem;
+    z-index: 999;
+
+    &--main {
+      font-weight: 600;
+      font-size: 2.5rem;
+    }
+
+    &--sub {
+      font-weight: 400;
+      font-size: 1.4rem;
+    }
+  }
+}
+
+// pages section in header
+
+.header__orange {
+  background-color: $color-orange;
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 3rem;
+  position: fixed;
+  top: 0;
+  z-index:10;
+}
+.orange {
+  &__logo-box {
+    text-decoration: none;
+    color: white;
+  }
+
+  &__logo-main {
+    font-size: 2rem;
+  }
+
+  &__logo-sub {
+    font-size: 1.4rem;
+  }
+}

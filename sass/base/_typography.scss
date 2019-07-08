@@ -1,0 +1,65 @@
+body {
+  font-size: 1.6rem;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.background-opac-div {
+  width: 55%;
+  background-color: rgba($color-black, 0.5);
+  padding: 5rem 7rem;
+  border-radius: 5px;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 3rem 5rem;
+  }
+
+  @media only screen and (max-width: $bp-smallest) {
+    padding: 2rem 2rem;
+  }
+}
+
+.heading-primary {
+  font-family: "Lobster", cursive;
+  text-transform: capitalize;
+  font-size: 10rem;
+  color: $color-white-1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media only screen and (max-width: $bp-small-1) {
+    font-size: 8rem;
+  }
+}
+
+.heading-secondary {
+  font-size: 3rem;
+  text-transform: uppercase;
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 2.5rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 2.2rem;
+  }
+}
+
+.main-paragraph {
+  color: $color-white-1;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  line-height: 2.2rem;
+  font-size: 1.4rem;
+
+  // @media only screen and (max-width: $bp-large) {
+  //   font-size: 1.2rem;
+  // }
+}
+
+.paragraph-secondary {
+  color: $color-white-2;
+  font-size: 2rem;
+  font-weight: 300;
+}

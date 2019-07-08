@@ -1,0 +1,27 @@
+.btn {
+  &__edit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__arrow {
+    
+    border: 1px solid $color-white;
+    border-radius: 50%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    &--white{
+        color: white;
+        transition:all .5s;
+
+        &:hover{
+            background-color:rgba($color-white, .09);
+        }
+    }
+  }
+}

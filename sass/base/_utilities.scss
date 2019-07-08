@@ -1,0 +1,292 @@
+// text-alignment
+
+.u-text-align-center {
+  text-align: center !important;
+}
+
+.u-text-align-left {
+  text-align: left !important;
+}
+
+.u-text-align-right {
+  text-align: right !important;
+}
+
+// positioning
+
+.u-positionabsolute {
+  position: absolute;
+  top: 3rem;
+  right: 1rem;
+}
+
+.u-position-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.u-position-absolute-1 {
+  position: absolute;
+  top: 80%;
+  left: 25.5%;
+  transform: translate(-50%, -50%);
+}
+
+// margins
+
+// margin-top
+
+.u-margin-top-small {
+  margin-top: 2rem !important;
+}
+
+.u-margin-top-medium {
+  margin-top: 4rem !important;
+}
+
+.u-margin-top-large {
+  margin-top: 6rem !important;
+}
+
+.u-margin-top-huge {
+  margin-top: 10rem !important;
+}
+
+// margin-bottom
+
+.u-margin-bottom-small {
+  margin-bottom: 2rem !important;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important;
+}
+
+.u-margin-bottom-large {
+  margin-bottom: 6rem !important;
+}
+
+.u-margin-bottom-huge {
+  margin-bottom: 10rem !important;
+}
+
+// margin-left
+
+.u-margin-left-small {
+  margin-left: 2rem !important;
+}
+
+.u-margin-left-medium {
+  margin-left: 4rem !important;
+}
+
+.u-margin-left-large {
+  margin-left: 6rem !important;
+}
+
+.u-margin-left-huge {
+  margin-left: 10rem !important;
+}
+
+// margin-right
+
+.u-margin-right-small {
+  margin-right: 2rem !important;
+}
+
+.u-margin-right-medium {
+  margin-right: 4rem !important;
+}
+
+.u-margin-right-large {
+  margin-right: 6rem !important;
+}
+
+.u-margin-right-huge {
+  margin-right: 10rem !important;
+}
+
+.u-margin-top-bottom-small {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.u-margin-top-bottom-medium {
+  margin-top: 20rem;
+  margin-bottom: 20rem;
+}
+
+.u-margin-top-bottom-large {
+  margin-top: 30rem;
+  margin-bottom: 30rem;
+}
+
+.u-margin-top-bottom-huge {
+  margin-top: 40rem;
+  margin-bottom: 40rem;
+}
+
+// padding
+
+// padding-top
+
+.u-padding-top-small {
+  padding-top: 2rem !important;
+}
+
+.u-padding-top-medium {
+  padding-top: 4rem !important;
+}
+
+.u-padding-top-large {
+  padding-top: 6rem !important;
+}
+
+.u-padding-top-huge {
+  padding-top: 10rem !important;
+}
+
+// padding-bottom
+
+.u-padding-bottom-small {
+  padding-bottom: 2rem !important;
+}
+
+.u-padding-bottom-medium {
+  padding-bottom: 4rem !important;
+}
+
+.u-padding-bottom-large {
+  padding-bottom: 6rem !important;
+}
+
+.u-padding-bottom-huge {
+  margin-bottom: 10rem !important;
+}
+
+// padding-left
+
+.u-padding-left-small {
+  padding-left: 2rem !important;
+}
+
+.u-padding-left-medium {
+  padding-left: 4rem !important;
+}
+
+.u-padding-left-large {
+  padding-left: 6rem !important;
+}
+
+.u-padding-left-huge {
+  padding-left: 10rem !important;
+}
+
+// padding-right
+
+.u-padding-right-small {
+  padding-right: 2rem !important;
+}
+
+.u-padding-right-medium {
+  padding-right: 4rem !important;
+}
+
+.u-padding-right-large {
+  padding-right: 6rem !important;
+}
+
+.u-padding-right-huge {
+  padding-right: 10rem !important;
+}
+
+// normal paddings
+
+.u-padding-very-small {
+  padding: 1rem !important;
+}
+
+.u-padding-small {
+  padding: 2rem !important;
+}
+
+.u-padding-medium {
+  padding: 4rem !important;
+}
+
+.u-padding-large {
+  padding: 6rem !important;
+}
+
+.u-padding-huge {
+  padding: 10rem !important;
+}
+
+.u-padding-top-bottom-small {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.u-padding-top-bottom-medium {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+}
+
+.u-padding-top-bottom-large {
+  padding-top: 30rem;
+  padding-bottom: 30rem;
+
+  @media only screen and (max-width: $bp-small-1) {
+    padding-top: 40rem !important;   
+  }
+}
+
+.u-padding-top-bottom-huge {
+  padding-top: 40rem;
+  padding-bottom: 40rem;
+}
+// overflow
+
+.u-overflow-hidden {
+  overflow: hidden;
+}
+
+// borders
+
+// .u-border {
+//   border: 1px solid $button-color-2;
+//   border-radius: 5px;
+// }
+
+// widths
+
+.u-width-small {
+  width: 40% !important;
+}
+
+.u-width-medium {
+  width: 50% !important;
+}
+
+.u-width-large {
+  width: 60% !important;
+}
+
+.u-width-huge {
+  width: 80% !important;
+}
+
+.u-width-full {
+  width: 100% !important;
+}
+
+// center position flex
+
+.u-flex-center {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
